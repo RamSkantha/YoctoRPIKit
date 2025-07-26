@@ -6,7 +6,6 @@ This project demonstrates how to build a custom embedded Linux image for Raspber
 
 ## 📁 Project Structure
 
-
 ├── build-notes.txt
 ├── conf
 │   ├── bblayers.conf
@@ -18,6 +17,7 @@ This project demonstrates how to build a custom embedded Linux image for Raspber
 ├── images
 │   ├── core-image-base-raspberrypi4-64.wic.bmap
 │   └── core-image-base-raspberrypi4-64.wic.bz2
+├── LICENSE
 ├── README.md
 ├── recipes-example
 │   └── hello-module
@@ -28,18 +28,21 @@ This project demonstrates how to build a custom embedded Linux image for Raspber
 ├── rpi-boot-config
 │   ├── cmdline.txt
 │   └── config.txt
-└── screenshots
-    ├── df_output.png
-    ├── directory_structure.png
-    ├── helloworld_output.png
-    ├── kernel_module_hello_logs.png
-    ├── os_release.png
-    ├── ssh.png
-    ├── systemctl_services.png
-    ├── systemd_analyze.png
-    ├── uart_login.png
-    ├── uname_output.png
-    └── wifi_configuration.png
+├── screenshots
+│   ├── df_output.png
+│   ├── directory_structure.png
+│   ├── helloworld_output.png
+│   ├── kernel_module_hello_logs.png
+│   ├── os_release.png
+│   ├── ssh.png
+│   ├── systemctl_services.png
+│   ├── systemd_analyze.png
+│   ├── uart_login.png
+│   ├── uname_output.png
+│   └── wifi_configuration.png
+└── wifi_setup.md
+
+
 
 
 
