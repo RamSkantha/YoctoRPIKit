@@ -1,0 +1,28 @@
+
+---
+
+## 🔧 Build Steps (Quick Summary)
+
+```bash
+# 1. Clone poky and meta layers
+git clone git://git.yoctoproject.org/poky
+git clone https://github.com/agherzan/meta-raspberrypi.git
+git clone https://git.openembedded.org/meta-openembedded
+
+# 2. Source build environment
+cd poky
+source oe-init-build-env
+
+# 3. Configure MACHINE in conf/local.conf
+MACHINE = "raspberrypi4-64"
+
+# 4. Add layers in bblayers.conf
+bitbake-layers add-layer ../meta-raspberrypi
+bitbake-layers add-layer ../meta-openembedded/meta-oe
+
+# 5. Build the image
+bitbake core-image-base
+
+
+# Flash using bmaptool
+sudo bmaptool copy core-image-base-raspberrypi4-64.wic.bz2 /dev/mmcblk0

@@ -1,0 +1,7 @@
+tmp/
+sstate-cache/
+*.wic
+*.wic.bz2
+*.bmap
+*.log
+
