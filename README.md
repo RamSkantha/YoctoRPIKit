@@ -1,6 +1,12 @@
 # Yocto Linux Build for Raspberry Pi 4
 
-This project demonstrates how to build a custom embedded Linux image for Raspberry Pi 4 using the **Yocto Project**. It includes UART support, a custom kernel module (`hello.ko`), and a simple recipe (`helloworld`) added to the image.
+This project demonstrates how to build a custom embedded Linux image for Raspberry Pi 4 using the **Yocto Project**.  
+It includes UART support, a custom kernel module (`hello.ko`), and a simple recipe (`helloworld`) added to the image.
+
+## 📌 Project Info
+- **Project Duration:** July 2025  
+- **Author:** Ramkumar B  
+- **Description:** A custom Yocto build for Raspberry Pi 4B with kernel module integration and Wi-Fi support.
 
 ---
 
