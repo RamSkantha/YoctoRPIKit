@@ -12,45 +12,7 @@ It includes UART support, a custom kernel module (`hello.ko`), and a simple reci
 
 ## 📁 Project Structure
 
-├── build-notes.txt
-├── conf
-│   ├── bblayers.conf
-│   └── local.conf
-├── helloworld
-│   ├── files
-│   │   └── helloworld.c
-│   └── helloworld_1.0.bb
-├── images
-│   ├── core-image-base-raspberrypi4-64.wic.bmap
-│   └── core-image-base-raspberrypi4-64.wic.bz2
-├── LICENSE
-├── README.md
-├── recipes-example
-│   └── hello-module
-│       ├── files
-│       │   ├── hello.c
-│       │   └── Makefile
-│       └── hello-module_0.1.bb
-├── rpi-boot-config
-│   ├── cmdline.txt
-│   └── config.txt
-├── screenshots
-│   ├── df_output.png
-│   ├── directory_structure.png
-│   ├── helloworld_output.png
-│   ├── kernel_module_hello_logs.png
-│   ├── os_release.png
-│   ├── ssh.png
-│   ├── systemctl_services.png
-│   ├── systemd_analyze.png
-│   ├── uart_login.png
-│   ├── uname_output.png
-│   └── wifi_configuration.png
-└── wifi_setup.md
-
-
-
-
+[directory_structure](directory_structure.png)
 
 
 ## 🛠️ Features Included
