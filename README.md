@@ -12,7 +12,7 @@ It includes UART support, a custom kernel module (`hello.ko`), and a simple reci
 
 ## 📁 Project Structure
 
-[directory_structure](screenshots/directory_structure.png)
+[directory-structure](screenshots/directory-structure.png)
 
 
 ## 🛠️ Features Included
